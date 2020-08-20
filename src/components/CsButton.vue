@@ -31,17 +31,17 @@ export default {
             $like:function(){
                 this.counter +=1
                 this.like +=1
-                this.$emit('cc',this.counter)
+              
             },
             $love:function(){
                 this.counter +=5
                 this.love +=1
-                this.$emit('cc',this.counter)
+               
             },
             $dislike:function(){
                 this.counter -=10
                 this.dislike += 1
-                this.$emit('cc',this.counter)
+               
             }
 
         }
